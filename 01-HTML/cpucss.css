@@ -1,0 +1,43 @@
+﻿
+body
+{
+    background-color: #323232;
+    color: gray;
+    font-family: Arial;
+}
+
+p 
+{
+    text-align: justify;
+    font-size: 22px;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+h1
+{
+    font-size: 32px;
+    margin: 32px;
+}
+
+h4 
+{
+    font-size: 32px;
+    margin: auto;
+    text-align: center;
+}
+
+ol 
+{
+    list-style: upper-roman;
+}
+
+.nesting-lvl-1 
+{
+    list-style-type: circle;
+}
+
+.nesting-lvl-2 
+{
+    list-style-type: "- ";
+}
