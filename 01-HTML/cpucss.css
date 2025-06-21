@@ -12,6 +12,7 @@ p
     font-size: 22px;
     font-family: "Roboto";
     font-weight: 400;
+    margin:100px;
 }
 
 h1
@@ -57,4 +58,12 @@ a:hover,a:hover:visited
 a:visited
 {
     color:green;
+}
+td
+{
+    text-align:center;
+}
+table
+{
+    margin:auto;
 }
