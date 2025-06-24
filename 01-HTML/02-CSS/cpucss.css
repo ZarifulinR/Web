@@ -68,3 +68,15 @@ table
     margin:auto;
     font-size:30px;
 }
+table:hover
+{
+    box-shadow:0px 0px 10px 10px lightblue;
+}
+tr:hover
+{
+    box-shadow:inset 0px -5px 5px green; 
+}
+td:hover
+{
+    box-shadow:inherit 0 5px 5px blue; 
+}

@@ -4,11 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.36107.64
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E7B9DBAC-8B08-4E30-8521-A5D9385DAE1C}"
-	ProjectSection(SolutionItems) = preProject
-		cpucss.css = cpucss.css
-		HTMLPage1.html = HTMLPage1.html
-		HTMLPage2-CPU.html = HTMLPage2-CPU.html
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
