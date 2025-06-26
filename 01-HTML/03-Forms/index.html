@@ -24,13 +24,17 @@
                        pattern="^[A-ZА-Я a-zа-я]*" />
             </div>
             <div>
-                <lable for="password">Проль:</lable>
+                <labl for="password">Проль:</labl>
                 <input type="password"
                        id="password"
                        name="password"
                        size="32"
                        placeholder="Введите пароль"
-                       minlength="" />
+                       
+                       pattern="^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=\S+$).{8,}$"
+                       title="Пароль должен содержать от 8 до 24 символов, минимум одну заглавную букву, одну цифру и один спецсимвол."
+                       required
+                       />
             </div>
             <div>
                 <label for="email">E-mail</label>
