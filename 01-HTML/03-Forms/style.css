@@ -3,3 +3,7 @@ body
 {
     font-family: Roboto Condensed;
 }
+textarea
+{
+    resize: none;
+}
