@@ -1,4 +1,4 @@
-﻿/*@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 body 
 {
     font-family: Roboto Condensed;
@@ -9,6 +9,18 @@ textarea
     width: 500px;
     height: 150px;
 }
+fieldset
+{
+    
+    width:280px;
+}
 div {
     margin: 25px;
-}*/
+}
+.EULA
+{
+    width:500px;
+    height:300px;
+    border:solid 1px;
+    overflow :scroll;
+}
