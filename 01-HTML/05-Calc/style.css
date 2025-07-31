@@ -110,3 +110,16 @@
     background-color: darkblue;
     background-image: linear-gradient(to right,#0022BBFF,#0055FFFF,#0022BBFF);
 }
+#work-area
+{
+    width:100%;
+    display:block;
+}
+.menu_bar, .display,.buttons
+{
+    width:100%;
+}
+#text
+{
+    width:90%;
+}
