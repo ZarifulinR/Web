@@ -43,14 +43,38 @@
     display:flex;
     align-items:center;
 }
-.control_buton
+.control_buton, .control_buton:disabled, .control_buton:disabled:hover
 {
-    width:24px;
-    height:24px;
-    margin:0px;
-    border-radius:7px;
-    border-color:white;
-    text-align:center;
-    padding:0px;
-    background-image:linear-gradient(to bottom right,#55A1FF,#004572);
+    width: 24px;
+    height: 24px;
+    margin: 0px;
+    border-radius: 7px;
+    border: solid 1px white;
+    /*border-color:white;*/
+    text-align: center;
+    padding: 0px;
+    background-image: linear-gradient(to bottom right,#55A1FF,#0025B5);
+    box-shadow: inset 2px 1px 2px 1px #77A1F5;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+#close_button {
+    background-image: linear-gradient(to bottom right,#FF0000,#D83002);
+    box-shadow: inset 2px 1px 3px 1px #C49A9B;
+}
+.control_buton:hover {
+    /*border-color:lightgray;*/
+    background-image: linear-gradient(to bottom right,#75C1FF,#2045D5);
+    box-shadow: inset 0px 0px 5px 3px #77A1F5;
+}
+#close_button:hover 
+{
+    background-image: linear-gradient(to bottom right,#E99495,#FF3020);
+    box-shadow: inset 0px 0px 3px 3px #C49A9B;
+}
+.control_buton:disabled, .control_buton:disabled:hover 
+{
+    color: lightgray;
+    border-color: lightgray;
 }
