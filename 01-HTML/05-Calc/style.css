@@ -42,6 +42,7 @@
 {
     display:flex;
     align-items:center;
+    text-shadow:1px 1px 0px darkblue;
 }
 .control_buton, .control_buton:disabled, .control_buton:disabled:hover
 {
@@ -77,4 +78,35 @@
 {
     color: lightgray;
     border-color: lightgray;
+}
+/*====================================================*/
+.client-rect {
+    width: auto;
+    height: 317px;
+    /*border: solid 5px;
+    border-image: linear-gradient(to right,#000051D7,#00E56718,#000051D7)1;*/
+    display:block;
+}
+#man_area 
+{
+    display:flex;
+    justify-content:space-between;
+}
+#bottom-border {
+    width: 100%;
+    height: 5px;
+    background-color: darkblue;
+    background-image: linear-gradient(to bottom,/*#0022BBFF*/,#0055FFFF,#0022BBFF);
+}
+#left-border {
+    width: 5px;
+    height: 322px;
+    /*background-color: darkblue;*/
+    background-image: linear-gradient(to right,#0022BBFF,#0055FFFF,#0022BBFF);
+}
+#right-border {
+    width: 5px;
+    height: 322px;
+    background-color: darkblue;
+    background-image: linear-gradient(to right,#0022BBFF,#0055FFFF,#0022BBFF);
 }
